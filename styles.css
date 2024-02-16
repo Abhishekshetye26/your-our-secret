@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+html , body{
+    height: 100%;
+    width:100%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main{
+    height:100vh;
+    width:100%;
+}
+
+.nav{
+    height:150px;
+    width:100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav h1{
+
+    font-size: 100px;
+    color: aliceblue;
+}
+
+.submain{
+    width:100%;
+    height:calc(100% - 150px);
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.left{
+    width:50%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.right{
+    width:50%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.side{
+
+    line-height: 3;
+    
+}
+
+.side2{
+
+    line-height: 3;
+}
+
+.popup-link{
+
+    background-color: blue;
+    padding: 10px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: aliceblue;
+    margin-right: 10px;
+}
+
+.remove{
+
+    background-color: blue;
+    padding: 10px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: aliceblue;
+}
+
+.setPassword{
+
+    background-color: blue;
+    padding: 10px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: aliceblue;
+}
+
+.unlock{
+
+    background-color: blue;
+    padding: 10px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: aliceblue; 
+}
+
+.title1 , .title2{
+
+    background-color: rgb(88, 84, 84);
+    color: aliceblue;
+    text-align: center;
+}

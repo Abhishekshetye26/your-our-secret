@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+    <div class="nav">
+        <h1>Your Our Secret</h1>
+    </div>
+    <div class="submain">
+    <div class="left">
+
+        <div class="side">
+            <div class="title2">HIDE</div>
+            <div class="selectFile">
+            <label for="fileToProtect">Select File : </label>
+            <input type="file" id="fileToProtect">
+           </div>
+
+            <button class="popup-link" onclick="openPopup()">Add Files</button>
+            <button class ="remove" onclick="removeLastFile()">Remove Last File</button>
+            <div id="file-info-container"></div>
+            <div class="password">
+            <label for="password"> Enter Password : </label>
+            <input type="password" id="password" placeholder="Enter password">
+            </div>
+            <div class="confirmPassword">
+            <label for="confirmPassword">Enter Confirm Password : </label>
+            <input type="password" id="confirmPassword" placeholder="Confirm password">
+            </div>
+            <button class="setPassword" onclick="setPassword()">Set Password</button>
+        </div>
+    </div>
+    <div class="right">
+    
+        <div class="side2">
+            <div class="title2">UNHIDE</div>
+            <div class="file1">
+             <label for="fileToUnlock">Select File</label>
+            <input type="file" id="fileToUnlock">
+            </div>
+            <div class="correct-password">
+            <label for="unlockPassword">Enter Password</label>
+            <input type="password" id="unlockPassword" placeholder="Enter password">
+            </div>
+            <div id="success-message"></div>
+            <div id="error-message"></div>
+            <button  class="unlock" onclick="checkPassword()">Unlock</button>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

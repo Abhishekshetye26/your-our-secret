@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Message or File Selection</title>
+<style>
+
+body{
+
+    background-color: antiquewhite;
+}
+ .next{
+
+    background-color: blue;
+    padding: 10px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: aliceblue; 
+ }
+
+
+</style>
+</head>
+<body>
+
+<h2>Select secret File</h2>
+
+<input type="radio" id="fileRadio" name="selection" value="file" > 
+<label for="fileRadio">File</label>
+
+<button onclick="next()" class="next">Next</button>
+
+
+<div id="fileInput" style="display:none;">
+
+</div>
+<div id="file-Container"></div>
+<script src="script.js"></script>
+
+
+</body>
+</html>
